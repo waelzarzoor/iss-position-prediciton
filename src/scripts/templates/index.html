@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        #plotly-chart {
+            width: 100%;
+            height: 800px;
+        }
+    </style>
+    <title>Pozycja ISS</title>
+</head>
+<body>
+    <div id="plotly-chart"></div>
+
+    <script>
+        var plotly_chart = Plotly.newPlot('plotly-chart', [{
+            type: 'scattergeo',
+            mode: 'markers',
+            lon: [],
+            lat: [],
+            name: 'True Position',
+            marker: {
+                size: 10,
+                line: {
+                    color: 'black',
+                    width: 0.5
+                },
+                color: 'blue'
+            }
+        }, {
+            type: 'scattergeo',
+            mode: 'markers',
+            lon: [],
+            lat: [],
+            name: 'Predicted Position',
+            marker: {
+                size: 10,
+                line: {
+                    color: 'black',
+                    width: 0.5
+                },
+                color: 'red'
+            }
+        }]);
+        layout: {
+            autosize: false
+        }
+
+        var source = new EventSource('/stream');
+        source.onmessage = function(event) {
+            var data = JSON.parse(event.data);
+
+            Plotly.extendTraces('plotly-chart', {
+                lon: [[data.longitude]],
+                lat: [[data.latitude]]
+            }, [0]);
+
+            Plotly.extendTraces('plotly-chart', {
+                lon: [[data.pred_longitude]],
+                lat: [[data.pred_latitude]]
+            }, [1]);
+
+            console.log('Prognoza:', data.prediction);
+        };
+    </script>
+</body>
+</html>

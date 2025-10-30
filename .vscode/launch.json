@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Test LatLongDataset",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "${workspaceFolder}/tests/test_dataset_module.py"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src/modules/",
+                "PYTHONWARNINGS": "ignore"
+            },
+            "console": "integratedTerminal"
+        }
+    ]
+}

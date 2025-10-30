@@ -1,0 +1,3 @@
+features: 2
+hidden_units: 16
+learning_rate: 0.001
