@@ -29,6 +29,19 @@ The goal of the project is to develop a system for predicting the position of th
     pip install .
     ```
 
+## Libraries used
+
+- NumPy
+- Pandas
+- PyTorch
+- Lightning
+- TorchMetrics
+- Matplotlib
+- Flask
+- Plotly
+- Requests
+- Pytest
+
 ## Documentation
 
 The `docs` folder contains documentation for the executable files that are part of this project.
